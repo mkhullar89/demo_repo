@@ -241,11 +241,6 @@ personalize_events = boto3.Session(
 secret_key = os.urandom(24)
 app.secret_key = secret_key
 
-# conn = MySQLConnection(
-#                       host='localhost',
-#                       user='root',
-#                       password="Admin@2020",
-#                       database="20m_recommentation_system")
-# cursor = conn.cursor()
+
 if __name__ == '__main__':
     app.run()
